@@ -1,5 +1,9 @@
 flask==2.2.2
-pyttsx3==2.90
-wikipedia==1.4.0
+gunicorn==21.2.0
+pyautogui==0.9.54
 pywhatkit==5.3
+wikipedia==1.4.0
+requests==2.32.3
+beautifulsoup4==4.13.3
+pyttsx3==2.90
 pyodbc==4.0.35
