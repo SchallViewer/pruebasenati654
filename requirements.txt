@@ -8,3 +8,5 @@ requests==2.32.3
 beautifulsoup4==4.13.3
 pyttsx3==2.90
 pyodbc==4.0.35
+SpeechRecognition==3.10.0
+
