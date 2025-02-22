@@ -58,5 +58,8 @@ def obtener_alumnos():
     else:
         return jsonify({"error": "No hay conexión a la base de datos."})
 
+import os
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))  # Usa el puerto asignado por Render
+    app.run(host="0.0.0.0", port=port, debug=True)
