@@ -1,4 +1,5 @@
-flask==2.2.2
+Flask==2.2.5
+Werkzeug==2.2.3
 gunicorn==21.2.0
 pyautogui==0.9.54
 pywhatkit==5.3
